@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-left: 15px;
+
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+#home {
+    background-image: url(../img/b.jpeg);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    color: #f7c08a;
+}
+
+button:hover {
+    background-color: #f7c18ab6;
+    color: black;
+
+}
+
+#cards-history {
+    display: flex;
+
+}
+
+
+.card {
+
+    text-align: center;
+    width: calc(100%/2);
+
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#HistoryOfOurHotel {
+    background-color: #333;
+    padding: 50px;
+    line-height: 25px;
+
+}
+
+
+#contain {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+
+
+#card2 {
+    background-color: #f7c08a;
+}
+
+
+#contain p {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 120px;
+}
+
+
+
+#readmore {
+    background-color: white;
+    color: black;
+    padding: 7px;
+    text-transform: capitalize;
+}
+
+.about {
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+#HistoryOfOurHotel p {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#about p {
+
+    margin-bottom: 30px;
+}
+
+/* start about page  */
+#about {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+    margin-top: 50px;
+
+
+}
+
+.round img {
+    width: 100%;
+    height: 95%;
+    border-radius: 50%;
+}
+
+.text {
+    width: 45%;
+}
+
+.round {
+
+    width: 45%;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+span {
+    color: #f7c08a;
+}
+
+#comment {
+    background-image: url(../img/2.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 110px;
+    justify-content: center;
+}
+
+.commen img {
+
+    width: 200px;
+    border-radius: 50%;
+    height: 100px;
+
+}
+
+.commen {
+    display: flex;
+    flex-direction: row;
+    background-color: #f7c08a;
+    padding: 20px 10px;
+}
+
+h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.box2 {
+    margin-bottom: 30px;
+}
+
+.commen p {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+/* end about page  */
+
+
+/* start contact page  */
+#contact {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 160px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+label {
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+
+input {
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 8%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.info {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: #333;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.info p {
+    margin-top: 5px;
+}
+
+/* end contact page  */
+
+
+/* start footer page  */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #333333c7;
+    padding: 15px;
+}
+
+/* end footer page  */
